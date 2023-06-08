@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-5m%i1qh$@yhba^x8)y5u()=fuz*9+jkr97g_a%eo=qzh0vimkk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
 
     # Custom Apps
+    'home',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: calc(100vh - 164px);
+    color: rgb(0, 99, 27);
+    font-family: 'Acme', sans-serif;
+
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.header-container {
+    height: 55px;
+    margin-top: 55px;
+}
+
+.text-green {
+    color: rgb(117,175,74) !important;
+}
+
+.text-red {
+    color: red !important;
+}
+
+.text-orange {
+    color: orange !important;
+}
+
+.text-brown {
+    color: rgb(100,52,41) !important;
+}
+
+.bg-brown {
+    background-color: rgb(100,52,41) !important;
+}
+
+.bg-green {
+    background-color: rgb(117,175,74) !important;
+}
+
+.dropdown-item:hover, .dropdown-item:active {
+    background-color: rgb(100,52,41) !important;
+    color: cornsilk;
+}
