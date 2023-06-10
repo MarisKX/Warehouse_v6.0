@@ -139,7 +139,9 @@
 
       {% else %}
       <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-        <li class="list-inline-item btn btn-secondary">Log In</li>
+        <li class="list-inline-item">
+          <a class="btn btn-secondary bg-green" href="{% url 'account_login' %}">Log In</a>
+        </li>
         <li class="list-inline-item btn btn-secondary">Create Company</li>
       </ul>
       {% endif %}
